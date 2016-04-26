@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+    	<style>
+			body{
+				background: url('https://i.imgur.com/aPQ4nK0.png');
+			}
+		
+			#container{
+                width: 1000px;     
+                margin: 0px auto;   
+                text-align: center; 
+                font-size: 30px;    
+                color: red;        
+            }
+            #header{
+                height: 100px;     
+                background: url('https://i.imgur.com/Q20zhFX.jpg');   
+            }
+            .content{
+                float:left;     
+                width: 600px;  
+                height: 600px;  
+                background: url('https://i.imgur.com/oUCtmrb.jpg');
+            }
+            .sidebar{
+                width: 300px;   
+                float: right;   
+                height: 600px; 
+                background: url('https://i.imgur.com/ce0WjMl.jpg');
+            }
+			
+		
+			div{
+                border: solid 1px red;
+                margin: 10px;
+			}
+			.show-center{
+                text-align: center;
+			}
+			div p strong{
+                color: red
+            }
+			div p span{
+                color: yellow
+            }			
+			a:visited{
+				color: green;
+			}
+			.gach-chan{
+				text-decoration: underline;
+				text-decoration-color: #28a4c9;
+			}
+			.upper{
+            text-transform: uppercase;
+			}
+
+			.lower{
+				text-transform: lowercase;
+			}
+          
+		    ul{
+                width: 250px;
+            }
+
+            ul li{
+                height: 30px;          
+                line-height: 30px;       
+                list-style: none;      
+                padding: 0px 10px;      
+                background: orange;      
+                border: solid 1px red;  
+                border-bottom: none;    
+                position: relative;     
+            }
+
+            ul li:last-child{
+                border-bottom: solid 1px red;
+            }
+
+            ul li ul{
+                position: absolute;     
+                top: -1px;          
+                right: -250px;      
+                display: none;   
+            }
+
+            ul li:hover ul{
+                display: block;
+            }
+        
+        </style>
+	</head>
+	
+	<body>
+		<div id="container">
+            <div id="header">
+                Zaii Sổ
+            </div>
+        <div id="main">
+        <div class="content">
+                    <h1> Thông tin </h1>
+		<div class="show-center">
+			<div class="gach-chan">
+				<div class="upper">
+					<div class="bg-yellow">
+						<div>
+							<p>
+								<span> - Nguyễn Tuấn Thành </span><br/>
+								<strong> - SWAT </strong><br/>
+								<span> - K59N-UET-VNU </span><br/>
+								<strong> - Thái Bình </strong><br/>
+								<a target="_blank" href="https://www.facebook.com/nguyen.tuanthanh.75098">FB cá nhân :D</a>
+							</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+				
+		
+        <div class="sidebar">
+       
+    
+
+		<h2> Sở thích </h2>
+		<ul>
+			<li>
+				<a href="#">Phượt</a>
+			</li>
+			<li>
+				<a href="#">Thể thao</a>
+				<ul>
+					<li>
+						<a href="#">Đá bóng</a>
+					</li>
+					<li>
+						<a href="#">Taekwondo</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Đồ ăn</a>
+				<ul>
+					<li>
+						<a href="#">Thịt gà</a>
+					</li>
+					<li>
+						<a href="#">Rau</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Đồ uống</a>
+				<ul>
+					<li>
+						<a href="#">Trà Sữa</a>
+					</li>
+					<li>
+						<a href="#">Coca Cola</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+ </body>
+		
+</html>
